@@ -1,0 +1,22 @@
+Début des logs.
+Pipeline déclenché avec succès.
+Récupération des logs de Jenkins...
+Generic Cause
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/lib/jenkins/workspace/GetServer
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Afficher nomserveur)
+[Pipeline] script
+[Pipeline] {
+[Pipeline] echo
+Valeur de nomserveur : Chadi
+[Pipeline] }
+[Pipeline] // script
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
