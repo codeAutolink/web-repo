@@ -1,0 +1,38 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Sidebar 04</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+</head>
+
+<body>
+
+    <div class="wrapper d-flex align-items-stretch">
+
+
+        <!-- Page Content  -->
+        <div id="content" class="p-5 p-md-6 pt-5">
+            <br>
+            <br>
+            <br>
+
+
+            <h2>Logs : </h2>
+            <pre>{{ logs }}</pre> 
+        </div>
+        <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+        <script src="{% static 'assets/js/popper.js' %}"></script>
+        <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>

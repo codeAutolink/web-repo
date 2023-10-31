@@ -1,0 +1,31 @@
+Début des logs.
+Pipeline déclenché avec succès.
+Vérification de l'état du pipeline...
+Réponse inattendue de Jenkins: 403 - <html><head><meta http-equiv='refresh' content='1;url=/login?from=%2Fjob%2FGetServer%2FlastBuild%2Fapi%2Fjson'/><script>window.location.replace('/login?from=%2Fjob%2FGetServer%2FlastBuild%2Fapi%2Fjson');</script></head><body style='background-color:white; color:white;'>
+
+
+Authentication required
+<!--
+-->
+
+</body></html>                                                                                                                                                                                                                                                                                                            
+Récupération des logs de Jenkins...
+Generic Cause
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/lib/jenkins/workspace/GetServer
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Afficher nomserveur)
+[Pipeline] script
+[Pipeline] {
+[Pipeline] echo
+Valeur de nomserveur : Olivier
+[Pipeline] }
+[Pipeline] // script
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
