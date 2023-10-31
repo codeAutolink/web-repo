@@ -1,0 +1,30 @@
+# Fichiers de base de données SQLite (si utilisés pour le développement)
+*.sqlite3
+*.sqlite3-journal
+
+# Fichiers de bytecode Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Fichiers de configuration sensibles
+*.env
+secrets.json
+
+# Fichiers de logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+
+# Fichiers générés par l'IDE (par exemple, pour PyCharm)
+.idea/
+*.iml
+
+# Dossiers de dépendances pour Bootstrap (si npm ou yarn est utilisé)
+node_modules/
+
+# Fichiers OS générés
+.DS_Store
+Thumbs.db
